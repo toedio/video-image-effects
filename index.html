@@ -4,7 +4,6 @@
         <title>Video and Image effects</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
          <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="script.js"></script>
@@ -18,7 +17,7 @@
             <div class="row">
                 <div class="col s6">
                     <div class="card">
-                        <div class="card-image" >
+                        <div class="card-image" >                           
                             <img src="img/image.jpg" id="image">
                         </div>
                         <div class="card-content">
@@ -62,8 +61,10 @@
                 <div class="col s6">
                      <div class="card">
                         <div class="card-image" >
-                            <video class="card-image" src="video/video.mp4" style="width: 100%;" id="video" controls autoplay>                                
-                            </video>
+                             <div class="stage">
+                                <video class="video" src="video/video.mp4" id="video"style="width: 100%;" controls autoplay>                                
+                                </video>
+                            </div>
                         </div>
                         <div class="card-content">
                             <p class="range-field" id="video-modifiers">

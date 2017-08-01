@@ -1,0 +1,24 @@
+{
+  "name": "video-image-effects",
+  "version": "1.0.0",
+  "description": "Video and image effects with css and JS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toedio/video-image-effects.git"
+  },
+  "keywords": [
+    "CSS",
+    "HTML",
+    "JS",
+    "Effects"
+  ],
+  "author": "Victor Ferreira da Silva <toedio@yahoo.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toedio/video-image-effects/issues"
+  },
+  "homepage": "https://github.com/toedio/video-image-effects#readme",
+  "dependencies": {
+    "materialize-css": "^0.100.1"
+  }
+}
